@@ -11,7 +11,7 @@ VALUES
     ("JFK", "New York", "NY", "USA"),
     ("DFW","Dallas / Fort Worth", "TX", "USA"),
     ("ATL","Atlanta","GA","USA"),
-    ("LAX","Los Angeles","CA","USA");
+    ("SFO","San Francisco","CA","USA");
     
 
 INSERT INTO
