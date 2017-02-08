@@ -14,13 +14,23 @@ VALUES
     ("LAX","Los Angeles","CA","USA");
     
 
+INSERT INTO
+    airplane (num, down_time)
+VALUES
+    ("Boeing737", 50),
+    ("Boing757", 70);
+
 
 INSERT INTO
-    flight (num, origin_code, destination_code, capacity)
+    flight (num, airplane_id, origin_code, destination_code, capacity)
 VALUES
-    ("AA111","ORD","JFK", 196),
-    ("AA112","ATL","DFW", 204),
-    ("AA115","JFK","ATL", 106),
-    ("AA116","LAX","ORD", 244);
+    ("AA111", 1, "ORD","JFK", 196),
+    ("AA112", 1, "ATL","DFW", 204),
+    ("AA115", 2, "JFK","ATL", 106),
+    ("AA116", 2, "LAX","ORD", 244);
+
+
+select * from airplane;
+select * from flight;
 
     
